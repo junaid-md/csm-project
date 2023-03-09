@@ -1,0 +1,27 @@
+{
+    "lwc": {
+        "modules": [
+            {
+                "dir": "$rootDir/src/modules"
+            },
+            {
+                "npm": "lightning-base-components"
+            },
+            {
+                "name": "@salesforce/invokeAPI",
+                "path": "src/modules/services/invokeAPI.js"
+            }
+        ]
+    },
+    "routes": [
+        {
+            "id": "example",
+            "path": "/",
+            "rootComponent": "components/e3DHomePage",
+            "layoutTemplate": "$layoutsDir/index.html",
+            "bootstrap": {
+                "syntheticShadow": true
+            }
+        }
+    ]
+}
