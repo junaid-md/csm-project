@@ -55,3 +55,6 @@ To start the project in a different mode:
 -   dev: `yarn dev`
 -   compat: `yarn start:compat`
 -   prod-compat: `yarn start:prod-compat`
+
+
+<img width="245" alt="image" src="https://user-images.githubusercontent.com/13597993/224065954-1ca973fb-c161-4564-a9cf-e867e38fd2e1.png">
